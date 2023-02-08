@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.486 s <<< FAILURE! - in RunCukesTest
+Search and verify results(Verify eBay tests)  Time elapsed: 17.05 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {span#nid-yc2-1>button>span.btn__cell}
+Expected: visible
+Screenshot: file:/C:/Users/prn99/IdeaProjects/lendinvest_task/build/reports/tests/1675894396073.0.png
+Page source: file:/C:/Users/prn99/IdeaProjects/lendinvest_task/build/reports/tests/1675894396073.0.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"span#nid-yc2-1>button>span.btn__cell"}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"span#nid-yc2-1>button>span.btn__cell"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LENOVO_7I', ip: '192.168.0.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6910d2f5944560a42c0f716486ba5b8, findElement {using=css selector, value=span#nid-yc2-1>button>span.btn__cell}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\prn99\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56208/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6910d2f5944560a42c0f716486ba5b8
+
